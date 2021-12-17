@@ -19,6 +19,10 @@ import "./styles.css";
 
 createStore({});
 
+if (process.env.NODE_ENV === "development") {
+  require("./mocks");
+}
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {

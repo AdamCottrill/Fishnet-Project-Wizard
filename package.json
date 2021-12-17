@@ -15,6 +15,7 @@
     "little-state-machine": "^4.1.2",
     "little-state-machine-devtools": "^2.0.1",
     "lodash": "^4.17.21",
+    "msw": "^0.36.3",
     "prettier": "^2.4.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
@@ -56,10 +57,12 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://127.0.0.1:8080",
   "homepage": ".",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.26.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
