@@ -8,6 +8,8 @@ import { DevTool } from "little-state-machine-devtools";
 
 import FN011 from "./pages/FN011";
 import Gear from "./pages/Gear";
+import FN012Sampling from "./pages/FN012Sampling";
+import FN012Limits from "./pages/FN012Limits";
 import FN022 from "./pages/FN022";
 import FN026 from "./pages/FN026";
 import FN028 from "./pages/FN028";
@@ -55,6 +57,8 @@ function App() {
             </div>
 
             <Route exact path="/" component={FN011} />
+            <Route path="/fn012_sampling" component={FN012Sampling} />
+            <Route path="/fn012_limits" component={FN012Limits} />
             <Route path="/fn022" component={FN022} />
             <Route path="/fn026" component={FN026} />
             <Route path="/fn028" component={FN028} />

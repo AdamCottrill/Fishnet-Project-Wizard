@@ -65,7 +65,7 @@ const FN011 = (props) => {
     keys.forEach((key, i) => (bbox[key] = extent[i]));
 
     actions.updateAction({ bbox });
-    props.history.push("./fn022");
+    props.history.push("./fn012_sampling");
   };
 
   if (protocols_loading || lakes_loading) return "Loading...";

@@ -78,8 +78,8 @@ const FN022 = (props) => {
       </div>
       <div className="card-body">
         <p>
-          This form will be used to capture informatin about the seasons
-          (temporal strata) assocaited with this project. Not all projects have
+          This form will be used to capture information about the seasons
+          (temporal strata) associated with this project. Not all projects have
           seasonal components, if none are specified, a default value will be
           created using the project start and end dates.
         </p>
